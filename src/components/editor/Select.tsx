@@ -110,7 +110,7 @@ const EditorSelect: React.FC<Props> = ({
           <Command>
             <Command.Input
               placeholder="Search"
-              className="mb-2 rounded border-none px-2 py-1 text-sm font-medium text-gray-900 outline-none ring-0 transition-all placeholder:text-shade-300"
+              className="mb-2 rounded border-none px-2 py-1 text-sm font-medium text-gray-900 transition-all placeholder:text-shade-300 focus:outline-none focus:ring-0 active:outline-none active:ring-0"
             />
             <Command.List>
               {isMulti
